@@ -11,12 +11,15 @@
 body {
     background-color: #ccdffd !important;
 }
-h1{
-    color: #c51162 !important   ;
-    font-size: 80px !important;
+.heading{
+    color: #c51162 !important;
+    display: inline-block;
+    font-size: 60px !important;
     font-weight:200 !important;
     text-align: center;
-    margin:0;
+    
+    margin-left: auto;
+    margin-right: auto;
     padding:20px 0 0 0;
 }
 .gameField{
@@ -80,7 +83,7 @@ h1{
 .score{
     font-size: 20px;
 }
-.play1, .play2, .tie{
+.play1, .play2, .tie, .reset{
     font-weight: 700;
     border-radius: 8px;
 }
@@ -135,4 +138,5 @@ h1{
     margin-bottom: 0px;
     font-size: 20px;
     text-align: center;
+    padding-bottom: 20px;
 }

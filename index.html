@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Tae-Toe</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./images/logo.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,7 +20,7 @@
             <div class="playerTwo"><input type="text" id="p2" placeholder="Enter Player 2 Name"><span></span></div>
         </div> -->
         <header>
-            <h1>Tic <span style="color:#2962ff;">Tac</span> <span style="color:#444;">Toe</span></h1>
+            <div class="heading w-100 ml-auto mr-auto"><img class="flost-left" src="./images/logo.png" width="60px" height="60px" alt="logo"><h1 class="ml-auto">Tic <span style="color:#2962ff;">Tac</span> <span style="color:#444;">Toe</span></h1></div>
         </header>
         <div></div>
         <div class="gameOver animation" id="gameover">
@@ -65,8 +66,9 @@
                             <span>Tie</span><br>
                             <span id="draw">0</span>
                         </div>
-                        <div class="col-sm-3">
-                            <i class="fa fa-refresh m-auto" id="resetBtn" style="font-size: 60px; cursor: pointer;" aria-hidden="true"></i>
+                        <div class="col-sm-3 reset">
+                            <span>Reset</span><br>
+                            <span><i class="fa fa-refresh m-auto" id="resetBtn" style="font-size: 30px; cursor: pointer;" aria-hidden="true"></i></span>
                         </div>
                     </div>
                 </div>   

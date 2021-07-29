@@ -158,6 +158,13 @@ $(document).ready(function() {
     });
 
     $('#resetBtn').click(function(){
+        
+        player1Score=0;
+        player2Score=0;
+        drawScore=0;
+        $('#ps1').html("0");
+        $('#ps2').html("0");
+        $('#draw').html("0");
         resetGame();
         valChangeStyle();
     });
