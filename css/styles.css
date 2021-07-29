@@ -1,0 +1,138 @@
+.box{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    line-height: 120px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle  ;
+}
+body {
+    background-color: #ccdffd !important;
+}
+h1{
+    color: #c51162 !important   ;
+    font-size: 80px !important;
+    font-weight:200 !important;
+    text-align: center;
+    margin:0;
+    padding:20px 0 0 0;
+}
+.gameField{
+    text-align: center;
+    margin-right: auto;
+    box-shadow: 7px 5px 5px -3px rgb(228, 220, 220), 0px 5px 10px rgb(228, 220, 220), -7px 5px 30px -3px rgb(228, 220, 220) ;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    width: 460px;
+    height: auto;
+    background-color: white;
+    border-radius: 12px 12px 0px 0px;
+}
+.bottomField{
+    width: 100%;
+    background-color: rgb(52, 119, 182);
+    text-align: center;
+    margin-right: auto;
+    box-shadow: 7px 5px 5px -3px rgb(228, 220, 220), 0px 5px 10px rgb(228, 220, 220), -7px 5px 5px -3px rgb(228, 220, 220) ;
+    padding: 30px;
+    margin: auto;
+    width: 460px;
+    height: auto;
+    border-radius: 0px 0px 12px 12px;
+    color: white;
+}
+.b-bottom {
+    border-bottom: 2px solid #bdbdbd;
+    color: rgb(52, 119, 182);
+}
+.b-left {
+    border-left: 2px solid #bdbdbd;
+}
+.b-right {
+    border-right: 2px solid #bdbdbd;
+    color: rgb(52, 119, 182);
+}
+.players{
+    display: inline-block;
+    width: 100%;
+}
+.playerOne{
+    float: left;
+}
+.playerTwo{
+    float: right;
+}
+.playerOne input, .playerTwo input{
+    border: 3px solid black;
+    box-shadow: 20px;
+}
+.O{
+    color: #2962ff;
+    font-size: 120px;
+}
+.X{
+    color: #c51162;
+    font-size: 120px;
+}
+.score{
+    font-size: 20px;
+}
+.play1, .play2, .tie{
+    font-weight: 700;
+    border-radius: 8px;
+}
+.turnColor{
+    color: rgb(52, 119, 182);
+    background-color: white;
+    transition: all ease-out 0.8s;
+}
+.gameOver{
+    display: none;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    width: 460px;
+    height: 460px;
+    background-color: rgb(52, 119, 182);
+    border-radius: 12px 12px 0px 0px;
+}
+.winStyleXY{
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    font-size: 115px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(52, 119, 182);
+}
+#restartGameBtn{
+    background-color: white;
+    color: rgb(52, 119, 182);
+    font-size: 25px;
+    font-weight: 800;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+    color: white;
+    transition: all ease-in-out 1s;
+}
+.animation{
+    transition: all ease-in-out 1s;
+}
+.fontSizeofModal{
+    font-size: 30px;
+    font-weight: 800;
+}
+.footer{
+    margin-bottom: 0px;
+    font-size: 20px;
+    text-align: center;
+}
