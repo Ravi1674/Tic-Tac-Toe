@@ -17,7 +17,6 @@ body {
     font-size: 60px !important;
     font-weight:200 !important;
     text-align: center;
-    
     margin-left: auto;
     margin-right: auto;
     padding:20px 0 0 0;
@@ -118,6 +117,11 @@ body {
     color: rgb(52, 119, 182);
     font-size: 25px;
     font-weight: 800;
+}
+#restartGameBtn:hover{
+    color: white;
+    background-color: rgb(52, 119, 182);
+    border: 1px solid white;
 }
 .hide{
     display: none;
